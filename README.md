@@ -2,7 +2,7 @@
 Informationen und Unterlagen zum Softwarepraktikum
 
 
-Semesterplan
+## Semesterplan
 
 | Datum  | Thema |
 | ------------- | ------------- |
