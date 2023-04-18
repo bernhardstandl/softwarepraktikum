@@ -10,6 +10,7 @@
 * Resnick, M. (2014). Give P’sa chance: Projects, peers, passion, play. In Constructionism and creativity: Proceedings of the third international constructionism conference. Austrian computer society, Vienna (pp. 13-20).
 * Abelson, H., & Sussman, G. J. (1996). Structure and interpretation of computer programs (p. 688). The MIT Press.
 * Standl, B. (2016). A case study on cooperative problem solving processes in small 9th grade student groups. In 2016 IEEE Global Engineering Education Conference (EDUCON) (pp. 961-967). IEEE.
+* Rogers, C. R., & Freiberg, H. J. (1994). Freedom to learn. Merrill/Macmillan College Publishing Co.
 
 ## Flutter Tutorials
 x
