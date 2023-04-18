@@ -6,5 +6,5 @@ Informationen und Unterlagen zum Softwarepraktikum
 
 | Datum  | Thema | Unterlagen |
 | ------------- | ------------- | ------------- |
-| 18.4.  | Vorbesprechung, Inhalte, Setup | Foliensatz |
+| 18.4.  | Vorbesprechung, Inhalte, Setup | [Foliensatz](sp_foliensatz.pdf) |
 | 25.4.  | Erste Flutter App  | https://github.com/bernhardstandl/first_flutter_app |
