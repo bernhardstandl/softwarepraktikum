@@ -2,7 +2,7 @@
 Informationen und Unterlagen zum Softwarepraktikum
 
 
-## Semesterplan
+# Semesterplan
 
 | Datum  | Thema | Unterlagen |
 | ------------- | ------------- | ------------- |
@@ -23,7 +23,7 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 25.7.  | Bereitstellung in App/Play Stores |  |
 
 
-## Installation von Flutter
+# Installation von Flutter
 * Laden und installieren Sie Visual Studio Code https://code.visualstudio.com/download
 * Installieren Sie die Flutter SDK (Software Development Kit ) https://docs.flutter.dev/get-started/install und folgen Sie genau der Anleitung für das jeweilige Betriebssystem
 
