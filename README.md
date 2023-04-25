@@ -24,26 +24,7 @@ Informationen und Unterlagen zum Softwarepraktikum
 * Nehmen Sie die Änderungen in pubspec.yaml vor. An welcher Stelle müssen Ergänzungen vorgenommen werden? Tipp: https://pub.dev/
 * Nehmen Sie die Änderungen in analysis_options.yaml vor. Wozu werden diese Einstellungen benötigt? Was sind Lints? Welche werden im Tutorial vorgeschlagen? https://dart-lang.github.io/linter/lints/index.html
 * Kopieren sie den Code von main.dart im Tutorial in VS Code
-* 
-
-![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
-<details> 
-<summary></summary>
-custom_mark10
-  digraph G {
-    size ="4,4"
-    main [shape=box]
-    main -> parse [weight=8]
-    parse -> execute
-    main -> init [style=dotted]
-    main -> cleanup
-    execute -> { make_string; printf}
-    init -> make_string
-    edge [color=red]
-    main -> printf [style=bold,label="100 times"]
-    make_string [label="make a string"]
-    node [shape=box,style=filled,color=".7 .3 1.0"]
-    execute -> compare
-  }
-custom_mark10
-</details>
+* Verstehen von Code
+- UML Klassendiagramm. Kann automatisiert erstellt werden (https://khurramali63.medium.com/generate-class-diagram-from-flutter-dart-code-9b8c2b49c026
+- Widget Tree. Erstellen eines Graphen.
+*
