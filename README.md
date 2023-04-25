@@ -7,18 +7,31 @@ Informationen und Unterlagen zum Softwarepraktikum
 | Datum  | Thema | Unterlagen |
 | ------------- | ------------- | ------------- |
 | 18.4.  | Vorbesprechung, Inhalte, Setup | [Foliensatz](sp_foliensatz.pdf) |
-| 25.4.  | Gemeinsame Entwicklung der ersten Flutter App,  Entwicklung von Projektideen |  |
+| 25.4.  | Tutorial 1/2,  Entwicklung einer Projektidee: Beschreibung und Skizzen |  |
+| 2.5.  | Tutorial 3,  Entwicklung einer Projektidee: Mockup, FlowCharts |  |
+| 9.5.  | Aufgabe: Umsetzen einer kleinen App, Beginn der App Entwicklung |  |
+| 16.5.  | App Entwicklung im Team |  |
+| 23.5.  | App Entwicklung im Team |  |
+| 30.5.  | Pfingstpause |  |
+| 6.6.  | App Entwicklung im Team |  |
+| 13.6.  | Zwischenpräsentationen |  |
+| 20.6.  | App Entwicklung im Team |  |
+| 27.6.  | App Entwicklung im Team |  |
+| 4.7.  | App Entwicklung im Team |  |
+| 11.7.  | Abschlusspräsentationen |  |
+| 18.7.  | Überarbeitung / Feinschliff |  |
+| 25.7.  | Bereitstellung in App/Play Stores |  |
 
 
 ## Installation von Flutter
 * Laden und installieren Sie Visual Studio Code https://code.visualstudio.com/download
 * Installieren Sie die Flutter SDK (Software Development Kit ) https://docs.flutter.dev/get-started/install und folgen Sie genau der Anleitung für das jeweilige Betriebssystem
 
-# Tutorial 1
-*
-*
+# Tutorial 1. Übergeordnetes Lernziel: Eine einfache Flutter-App verstehen.
+* Erstellen Sie eine minimale Flutter App (https://github.com/bernhardstandl/first_flutter_app/blob/master/lib/main.dart)
+* Kommentieren Sie den Code, sodass Schritt für Schritt erklärt wird, was in dem Programm Zeile für Zeile passiert.
 
-# Tutorial 2
+# Tutorial 2. Übergeordnetes Lernziel: Eine Flutter-App mit ChangeNotifier verstehen.
 * Öffnen Sie das Tutorial: https://codelabs.developers.google.com/codelabs/flutter-codelab-first#2
 * Erstellen Sie das erste Flutter Projekt, so wie im Tutorial beschrieben
 * Nehmen Sie die Änderungen in pubspec.yaml vor. An welcher Stelle müssen Ergänzungen vorgenommen werden? Tipp: https://pub.dev/
@@ -26,5 +39,6 @@ Informationen und Unterlagen zum Softwarepraktikum
 * Kopieren sie den Code von main.dart im Tutorial in VS Code
 * Verstehen von Code
 - UML Klassendiagramm. Kann automatisiert erstellt werden (https://khurramali63.medium.com/generate-class-diagram-from-flutter-dart-code-9b8c2b49c026
-- Widget Tree. Erstellen eines Graphen.
-*
+- Widget Tree: Erstellen eines Graphen.
+* Gehen Sie im Tutorial weiter bis einschließlich Schritt 4
+* Kommentieren Sie den Code, sodass Schritt für Schritt erklärt wird, was in dem Programm Zeile für Zeile passiert.
