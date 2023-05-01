@@ -7,9 +7,9 @@ Informationen und Unterlagen zum Softwarepraktikum
 | Datum  | Thema | Unterlagen |
 | ------------- | ------------- | ------------- |
 | 18.4.  | Vorbesprechung, Inhalte, Setup | [Foliensatz](sp_foliensatz.pdf) |
-| 25.4.  | Tutorial 1/2,  Entwicklung einer Projektidee: Beschreibung und Skizzen |  |
-| 2.5.  | Tutorial 3,  Entwicklung einer Projektidee: Mockup, FlowCharts |  |
-| 9.5.  | Aufgabe: Umsetzen einer kleinen App, Beginn der App Entwicklung |  |
+| 25.4.  | Tutorial "My First Flutter App",  Entwicklung einer Projektidee  | [Tutorial Aufgabe 1](https://classroom.github.com/a/1LMLhs2p) |
+| 2.5.  | Tutorial "Einfache erste App", Entwicklung einer Projektidee: Beschreibung und Skizzen, Festlegung der Teams   | [Tutorial Aufgabe 2](https://classroom.github.com/a/ftpm1rgQ) |
+| 9.5.  | Besprechung beider Tutorials, Grundlagen von Layout in Flutter Entwicklung einer Projektidee: Layout, Design, Mockup, FlowCharts |  |
 | 16.5.  | App Entwicklung im Team |  |
 | 23.5.  | App Entwicklung im Team |  |
 | 30.5.  | Pfingstpause |  |
