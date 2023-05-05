@@ -87,7 +87,7 @@ Das MyHomePage-Widget ist ebenfalls ein StatelessWidget, das auf das MyAppState-
 
 ## Screendesign
 In einem nächsten Schritt wird das Screendesign im Widget MyHomePage erstelt. Dazu wird das vorhandene
-[https://api.flutter.dev/flutter/widgets/Column-class.html](Column) Widget ergänzt (entsprechend des Screendesigns oben):
+[https://api.flutter.dev/flutter/widgets/Column-class.html](Column) Widget mit folgenden Widgtes ergänzt (entsprechend des Screendesigns oben):
 
 1. Text-Widget, das eine einfache Rechenaufgabe darstellt, bestehend aus zwei zufälligen Zahlen, die addiert werden sollen.
 2. Textfeld-Widget, in das der Benutzer seine Lösung eingeben kann.
