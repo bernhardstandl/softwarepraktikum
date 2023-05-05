@@ -98,6 +98,7 @@ Die Oberfläche besteht aus einem Column-Widget, das verschiedene Widgets wie Te
 
 In Flutter bezieht sich "child" auf ein einzelnes Widget, das in einem anderen Widget platziert wird, während "children" sich auf eine Liste von Widgets bezieht, die in einem Container-Widget platziert werden.
 
+Sehen wir uns dazu die Struktur innerhalb von body an:
 
 ```dart
 body: Container(
@@ -117,3 +118,38 @@ body: Container(
             ],
        );
  ```
+In einem nächsten Schritt werden die vier Widget-children ergänzt:
+
+**Rechenaufgabe (Text Widget)**
+Die Rechenaufgabe wird mit dem Text Widget dargestellt, dem zwei Variablen aus dem Model "MyAppState" abgerufen werden. Die Darstellung zwischen den beiden Variablen Zahl1 und Zahl2 **' + '** ist eine Verkettung der Variablen mit dem String **+** für die Darstellung der Addition. Vorsicht: Hier wird nicht addiert, sondern nur dargestellt. Die eigentliche Addition wird im MyAppState Widget stattfinden.
+
+```dart
+Text(Zahl1' + 'Zahl2+' =')
+ ```
+**Lösungseingabe und Prüfung der Lödung (Textfeld und Button Widget)**
+Das nächsten beiden Widgets in den Children werden in einer **Row**, also Zeile dargestellt. Damit kann das Texteingabefeld und der Button nebeneinander dargestellt werden.
+```dart
+Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly, //verteile auf Bildschirmbreite
+                children: [
+                
+                //Textfeld Eingabe
+                Expanded(child:
+                  TextField(
+                    controller: appState.eingabe,
+                    decoration: InputDecoration(
+                    border: UnderlineInputBorder(),
+                    hintText: 'Lösung',
+                  ),
+                  ),  
+                ),
+
+                //Antwortbutton
+                ElevatedButton(
+                  onPressed: () {
+                  appState.check();
+                  },
+                  child: Text('prüfen'),
+                ),
+                ],
+                 ```
