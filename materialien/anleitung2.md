@@ -157,9 +157,121 @@ Das Textfeld wird mit einem TextEditingController namens "eingabe" verknüpft (d
 
 **Test für Rückmeldung ob richtig oder falsch (Text Widget)**
  Der Text wird durch die Variable "feedback" dargestellt und kann den Text "richtig" oder "falsch" enthalten.
- 
+
+```dart
 Text(
   appState.feedback,
   style: TextStyle(fontSize: 50, color: Colors.black),
-  ), //Rückgabetext
-  
+  )
+```
+
+Die gesamte App sieht nun folgendermaßen aus. Nun fehlt noch das Model in **MyAppState**
+```dart
+import 'dart:math';
+
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ChangeNotifierProvider(
+      create: (context) => MyAppState(),
+      child: MaterialApp(
+        title: 'Rechenübungen',
+        theme: ThemeData(
+          useMaterial3: true,
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        ),
+        home: MyHomePage(),
+      ),
+    );
+  }
+}
+
+class MyAppState extends ChangeNotifier {
+
+    notifyListeners();
+  }
+}
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    var appState = context.watch<MyAppState>();
+
+    return Scaffold(
+      //Titelleiste
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text("Übung zur Addition"),
+        backgroundColor: Colors.green,
+      ),
+
+      body: Container(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            //Rechenaufgabe (verkettete Strings)
+            Text(
+              appState.number1.toString() +
+                  ' + ' +
+                  appState.number2.toString() +
+                  ' =',
+              style: TextStyle(fontSize: 60),
+            ),
+
+            //Lösungseingabe (Textfeld + Button in einer Row)
+            Row(
+              mainAxisAlignment:
+                  MainAxisAlignment.spaceEvenly, //verteile auf Bildschirmbreite
+              children: [
+                //Textfeld Eingabe
+                Expanded(
+                  child: TextField(
+                    controller: appState.eingabe,
+                    decoration: InputDecoration(
+                      border: UnderlineInputBorder(),
+                      hintText: 'Lösung',
+                    ),
+                  ),
+                ),
+
+                //Antwortbutton
+                ElevatedButton(
+                  onPressed: () {
+                    appState.check();
+                  },
+                  child: Text('prüfen'),
+                ),
+              ],
+            ),
+
+            //weitere Row für Rückmeldung ob richtig oder falsch
+            Row(
+              mainAxisAlignment:
+                  MainAxisAlignment.center, //am Bildschirm zentrieren
+
+              children: [
+                Text(
+                  appState.feedback,
+                  style: TextStyle(fontSize: 50, color: Colors.black),
+                ), //Rückgabetext
+              ],
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
+
+## Model: MyAppState
