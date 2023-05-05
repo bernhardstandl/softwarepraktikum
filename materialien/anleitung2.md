@@ -275,3 +275,19 @@ class MyHomePage extends StatelessWidget {
 ```
 
 ## Model: MyAppState
+Bevor wir das Model in MyAppState implementieren, einige Vorüberlegungen, was benötigt wird.
+1. Zunächst werden die beiden Zufallszahlen ermittelt.
+2. Dann muss die Benutzereingabe der Lösung gespeichert werden.
+3. Zudem muss geprüft werden, ob die Benutzereingabe mit der Summe der beiden Zufallszahlen übereinstimmt.
+4. Je nachdem, ob diese richtig oder falsch ist, wird die Rückgabe in einer Variable mit "richtig" oder "falsch" festgelegt.
+
+Damit die Kommunikation zwischen Screendesign in **MyHomePage** und dem Model in **MyAppState** funktioniert, wird über den **ChangeNotifier** geregelt.
+
+Dieser wird im Screendesign von **MyHomePage** über das Drücken des Buttons ausgelöst, wo eine Methode **check** aufgerufen wird. 
+
+```dart
+onPressed: () {
+     appState.check();
+              },
+```
+> watch ist eine Methode, die in Verbindung mit dem Provider-Paket verwendet wird, um die Aktualisierung von Widgets basierend auf Änderungen an den Daten im Provider-Objekt zu ermöglichen. Der Flutter-Code var appState = context.watch<MyAppState>(); verwendet watch, um das MyAppState-Objekt aus dem Provider zu erhalten und es der Variablen appState zuzuweisen. Dies bedeutet, dass die Variable appState nun auf die Eigenschaften und Methoden von MyAppState zugreifen und diese verwenden kann. Wenn sich eine Änderung in MyAppState ergibt, wird appState aktualisiert und das Widget, das auf appState hört, wird automatisch neu gerendert, um die neuen Daten anzuzeigen.
