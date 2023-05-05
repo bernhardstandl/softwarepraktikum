@@ -118,7 +118,7 @@ body: Container(
             ],
        );
  ```
-In einem nächsten Schritt werden die vier Widget-children ergänzt:
+In einem nächsten Schritt werden die vier Widget-children entwickelt:
 
 **Rechenaufgabe (Text Widget)**
 Die Rechenaufgabe wird mit dem Text Widget dargestellt, dem zwei Variablen aus dem Model "MyAppState" abgerufen werden. Die Darstellung zwischen den beiden Variablen Zahl1 und Zahl2 **' + '** ist eine Verkettung der Variablen mit dem String **+** für die Darstellung der Addition. Vorsicht: Hier wird nicht addiert, sondern nur dargestellt. Die eigentliche Addition wird im MyAppState Widget stattfinden.
@@ -126,7 +126,7 @@ Die Rechenaufgabe wird mit dem Text Widget dargestellt, dem zwei Variablen aus d
 ```dart
 Text(Zahl1' + 'Zahl2+' =')
  ```
-**Lösungseingabe und Prüfung der Lödung (Textfeld und Button Widget)**
+**Lösungseingabe und Prüfung der Lösung (Textfeld und Button Widget)**
 Das nächsten beiden Widgets in den Children werden in einer **Row**, also Zeile dargestellt. Damit kann das Texteingabefeld und der Button nebeneinander dargestellt werden.
 ```dart
  Row(
