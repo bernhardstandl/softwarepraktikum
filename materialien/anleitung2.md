@@ -299,4 +299,40 @@ definiert.
 **Kleiner Exkurs dazu** 
 > **watch** ist eine Methode, die in Verbindung mit dem **Provider**-Paket verwendet wird, um die Aktualisierung von Widgets basierend auf Änderungen an den Daten im Provider-Objekt zu ermöglichen. Der Flutter-Code var appState = context.watch<MyAppState>(); verwendet watch, um das MyAppState-Objekt aus dem Provider zu erhalten und es der Variablen appState zuzuweisen. Dies bedeutet, dass die Variable appState nun auf die Eigenschaften und Methoden von MyAppState zugreifen und diese verwenden kann. Wenn sich eine Änderung in MyAppState ergibt, wird appState aktualisiert und das Widget, das auf appState hört, wird automatisch neu gerendert, um die neuen Daten anzuzeigen.
 
-Wenn die Methode **check** 
+Die Methode **check** wird dann folgendermaßen im Widget **MyAppState** beschrieben:
+  
+```dart
+  void check(){
+    var summe_eingabe = int.parse(eingabe.text); //Typenumwandlung von String aus Textfeld nach Integer
+    var summe_aufgabe = number1 + number2;
+    if(summe_eingabe == summe_aufgabe) {
+      feedback = "richtig";
+    } else {
+      feedback = "falsch";
+    }
+    notifyListeners();
+  }
+}
+```
+  
+Der obige Flutter-Code definiert eine Methode *check()*, die eine Eingabe vom Benutzer auf Richtigkeit prüft und eine Rückmeldung in Form von feedback zurückgibt. Die Methode führt folgende Schritte aus:
+
+1. Holt den Inhalt des Textfelds eingabe und wandelt ihn in einen Integer mit int.parse() um. Der Integer wird in summe_eingabe gespeichert.
+2. Berechnet die Summe summe_aufgabe aus den beiden Zufallszahlen number1 und number2.
+3. Vergleicht die eingegebene Summe summe_eingabe mit der berechneten Summe summe_aufgabe.
+4. Wenn die beiden Summen übereinstimmen, setzt die Methode feedback auf "richtig", andernfalls auf "falsch".
+  
+Die Methode notifyListeners() wird aufgerufen, um alle Widgets zu benachrichtigen, die auf Änderungen im MyAppState-Objekt hören. Dadurch wird eine Aktualisierung der Benutzeroberfläche ausgelöst, um das Ergebnis der Überprüfung anzuzeigen.
+  
+Nun fehlen noch die Variablen und Zufallsvariablen, die ebenfalls in **MyAppState** im Model definiert werden:
+```dart
+  var number1 = Random().nextInt(90); //Zufalls-Summand 1
+  var number2 = Random().nextInt(90); //Zufalls-Summand 2
+  String feedback = '';
+
+  TextEditingController eingabe = TextEditingController();
+```
+1. **number1**: Eine Zufallszahl zwischen 0 und 89, die als erster Summand in der Rechenaufgabe verwendet wird.
+2. **number2**: Eine weitere Zufallszahl zwischen 0 und 89, die als zweiter Summand in der Rechenaufgabe verwendet wird.
+3. **feedback**: Eine Zeichenkette, die zur Rückmeldung verwendet wird, ob die vom Benutzer eingegebene Summe korrekt ist oder nicht. Wenn die Eingabe korrekt ist, wird feedback auf "richtig" gesetzt, andernfalls auf "falsch".
+4. **eingabe**: Ein TextEditingController-Objekt, das zum Speichern der vom Benutzer eingegebenen Summe verwendet wird. Dieses Objekt wird in einem Textfeld im Benutzerinterface verwendet, um die Eingabe zu ermöglichen.
