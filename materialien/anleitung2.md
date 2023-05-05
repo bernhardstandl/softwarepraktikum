@@ -281,7 +281,7 @@ Bevor wir das Model in MyAppState implementieren, einige Vorüberlegungen, was b
 3. Zudem muss geprüft werden, ob die Benutzereingabe mit der Summe der beiden Zufallszahlen übereinstimmt.
 4. Je nachdem, ob diese richtig oder falsch ist, wird die Rückgabe in einer Variable mit "richtig" oder "falsch" festgelegt.
 
-Damit die Kommunikation zwischen Screendesign in **MyHomePage** und dem Model in **MyAppState** funktioniert, wird über den **ChangeNotifier** geregelt.
+Die Kommunikation zwischen Screendesign in **MyHomePage** und dem Model in **MyAppState** wird über den **ChangeNotifier** geregelt.
 
 Dieser wird im Screendesign von **MyHomePage** über das Drücken des Buttons ausgelöst, wo eine Methode **check** aufgerufen wird. 
 
