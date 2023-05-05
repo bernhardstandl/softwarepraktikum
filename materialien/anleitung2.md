@@ -338,5 +338,5 @@ Nun fehlen noch die Variablen und Zufallsvariablen, die ebenfalls in **MyAppStat
 4. **eingabe**: Ein TextEditingController-Objekt, das zum Speichern der vom Benutzer eingegebenen Summe verwendet wird. Dieses Objekt wird in einem Textfeld im Benutzerinterface verwendet, um die Eingabe zu ermöglichen.
   
 ## Gesamte App
-Die gesamte App finden Sie hier:  [https://github.com/bernhardstandl/simple_first_app/blob/master/lib/main.dart](Einfache Rechnerapp)
+Die gesamte App finden Sie hier:  https://github.com/bernhardstandl/simple_first_app/blob/master/lib/main.dart oder direkt über die Aufgabe von GitHub Classroom: https://classroom.github.com/a/ftpm1rgQ
  
