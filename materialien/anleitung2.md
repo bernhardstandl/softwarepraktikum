@@ -81,7 +81,39 @@ Das MyApp-Widget ist ein [StatelessWidget](https://api.flutter.dev/flutter/widge
 
 Das MyAppState-Widget ist ein ChangeNotifier, das das Model der App repräsentiert. Das Model einer App ist sozuagen die "Logik" der App. Hier ist derzeit keine Funktionalität implementiert, aber das notifyListeners()-Methode wird aufgerufen, um Änderungen an den Listeners zu signalisieren, die Änderungen an die App zurückzugeben. Später werden wir hier die Zufallszahlen für die Addition erstellen und prüfen, ob die Nutzereingabe richtig war.
 
-Das MyHomePage-Widget ist ebenfalls ein StatelessWidget, das auf das MyAppState-Widget zugreift, indem es die watch()-Methode des Provider-Pakets verwendet. Hier wird das UI der App erstellt. Es gibt eine Titelleiste, die ein grünes Farbschema hat und den Titel "Übung zur Addition" trägt. Der Inhalt des Body ist derzeit noch leer, später wird hier die Darstellung der Addition und Textfeld für die Eingabe des Ergebnisses Addition und ein Button hinzugefügt.
+Das MyHomePage-Widget ist ebenfalls ein StatelessWidget, das auf das MyAppState-Widget zugreift, indem es die watch()-Methode des Provider-Pakets verwendet. Hier wird das UI der App innerhalb des [Scaffold](https://www.flutter.de/artikel/was-du-%C3%BCber-das-flutter-scaffold-widget-wissen-solltest) Widgets erstellt. Es gibt eine Titelleiste, die ein grünes Farbschema hat und den Titel "Übung zur Addition" trägt. Der Inhalt des Body ist derzeit noch leer, später wird hier die Darstellung der Addition und Textfeld für die Eingabe des Ergebnisses Addition und ein Button hinzugefügt.
 
 
- 
+
+## Screendesign
+In einem nächsten Schritt wird das Screendesign im Widget MyHomePage erstelt. Dazu wird das vorhandene
+[https://api.flutter.dev/flutter/widgets/Column-class.html](Column) Widget ergänzt (entsprechend des Screendesigns oben):
+
+1. Text-Widget, das eine einfache Rechenaufgabe darstellt, bestehend aus zwei zufälligen Zahlen, die addiert werden sollen.
+2. Textfeld-Widget, in das der Benutzer seine Lösung eingeben kann.
+3. Button-Widget, um die Lösung zu überprüfen.
+4. Text-Widget, das die Rückmeldung an den Benutzer gibt, ob die Lösung richtig oder falsch ist.
+
+Die Oberfläche besteht aus einem Column-Widget, das verschiedene Widgets wie Text, TextField, ElevatedButton und Row-Widgets erwartet. Wir legen zunächst die Struktur innerhalb des Containers fest. Die Oberfläche besteht aus einem Column-Widget, das verschiedene Widgets wie Text, TextField, ElevatedButton und Row-Widgets als Chilrden aufnehmen wird.
+
+In Flutter bezieht sich "child" auf ein einzelnes Widget, das in einem anderen Widget platziert wird, während "children" sich auf eine Liste von Widgets bezieht, die in einem Container-Widget platziert werden.
+
+
+```dart
+body: Container(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            
+            
+            children: [
+                 //Rechenaufgabe (Text Widget)
+
+                 //Lösungseingabe (Textfeld Widget)        
+
+                 //Prüfung der Lösung (Button Widget)      
+                
+                //Test für Rückmeldung ob richtig oder falsch (Text Widget)
+            ],
+       );
+ ```
