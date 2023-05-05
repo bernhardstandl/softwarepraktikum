@@ -336,3 +336,4 @@ Nun fehlen noch die Variablen und Zufallsvariablen, die ebenfalls in **MyAppStat
 2. **number2**: Eine weitere Zufallszahl zwischen 0 und 89, die als zweiter Summand in der Rechenaufgabe verwendet wird.
 3. **feedback**: Eine Zeichenkette, die zur Rückmeldung verwendet wird, ob die vom Benutzer eingegebene Summe korrekt ist oder nicht. Wenn die Eingabe korrekt ist, wird feedback auf "richtig" gesetzt, andernfalls auf "falsch".
 4. **eingabe**: Ein TextEditingController-Objekt, das zum Speichern der vom Benutzer eingegebenen Summe verwendet wird. Dieses Objekt wird in einem Textfeld im Benutzerinterface verwendet, um die Eingabe zu ermöglichen.
+ 
