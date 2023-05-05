@@ -127,7 +127,7 @@ Die Rechenaufgabe wird mit dem Text Widget dargestellt, dem zwei Variablen aus d
 Text(Zahl1' + 'Zahl2+' =')
  ```
 **Lösungseingabe und Prüfung der Lösung (Textfeld und Button Widget)**
-Das nächsten beiden Widgets in den Children werden in einer **Row**, also Zeile dargestellt. Damit kann das Texteingabefeld und der Button nebeneinander dargestellt werden.
+Die nächsten beiden Widgets in den Children werden in einer **Row**, also Zeile dargestellt. Damit kann das Texteingabefeld und der Button nebeneinander dargestellt werden.
 ```dart
  Row(
               children: [
