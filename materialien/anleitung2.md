@@ -297,4 +297,6 @@ onPressed: () {
 definiert.
 
 **Kleiner Exkurs dazu** 
-> **watch** ist eine Methode, die in Verbindung mit dem Provider-Paket verwendet wird, um die Aktualisierung von Widgets basierend auf Änderungen an den Daten im Provider-Objekt zu ermöglichen. Der Flutter-Code var appState = context.watch<MyAppState>(); verwendet watch, um das MyAppState-Objekt aus dem Provider zu erhalten und es der Variablen appState zuzuweisen. Dies bedeutet, dass die Variable appState nun auf die Eigenschaften und Methoden von MyAppState zugreifen und diese verwenden kann. Wenn sich eine Änderung in MyAppState ergibt, wird appState aktualisiert und das Widget, das auf appState hört, wird automatisch neu gerendert, um die neuen Daten anzuzeigen.
+> **watch** ist eine Methode, die in Verbindung mit dem **Provider**-Paket verwendet wird, um die Aktualisierung von Widgets basierend auf Änderungen an den Daten im Provider-Objekt zu ermöglichen. Der Flutter-Code var appState = context.watch<MyAppState>(); verwendet watch, um das MyAppState-Objekt aus dem Provider zu erhalten und es der Variablen appState zuzuweisen. Dies bedeutet, dass die Variable appState nun auf die Eigenschaften und Methoden von MyAppState zugreifen und diese verwenden kann. Wenn sich eine Änderung in MyAppState ergibt, wird appState aktualisiert und das Widget, das auf appState hört, wird automatisch neu gerendert, um die neuen Daten anzuzeigen.
+
+Wenn die Methode **check** 
