@@ -129,27 +129,37 @@ Text(Zahl1' + 'Zahl2+' =')
 **Lösungseingabe und Prüfung der Lödung (Textfeld und Button Widget)**
 Das nächsten beiden Widgets in den Children werden in einer **Row**, also Zeile dargestellt. Damit kann das Texteingabefeld und der Button nebeneinander dargestellt werden.
 ```dart
-Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly, //verteile auf Bildschirmbreite
-                children: [
+ Row(
+              children: [
                 
                 //Textfeld Eingabe
-                Expanded(child:
-                  TextField(
+                Expanded(
+                  child: TextField(
                     controller: appState.eingabe,
                     decoration: InputDecoration(
-                    border: UnderlineInputBorder(),
-                    hintText: 'Lösung',
+                      border: UnderlineInputBorder(),
+                      hintText: 'Lösung',
+                    ),
                   ),
-                  ),  
                 ),
 
                 //Antwortbutton
                 ElevatedButton(
                   onPressed: () {
-                  appState.check();
+                    appState.check();
                   },
                   child: Text('prüfen'),
                 ),
-                ],
-                 ```
+              ],
+            ),
+```
+Das Textfeld wird mit einem TextEditingController namens "eingabe" verknüpft (den wir später im MyAppState definieren) und der es ermöglicht, den Inhalt des Textfelds zu lesen und zu ändern. Der Button wird durch ein ElevatedButton-Widget dargestellt und durch eine onPress-Funktion ausgelöst, die die Funktion "check" ausführt, die ebenfalls später in einem anderen Teil des Codes definiert ist.
+
+**Test für Rückmeldung ob richtig oder falsch (Text Widget)**
+ Der Text wird durch die Variable "feedback" dargestellt und kann den Text "richtig" oder "falsch" enthalten.
+ 
+Text(
+  appState.feedback,
+  style: TextStyle(fontSize: 50, color: Colors.black),
+  ), //Rückgabetext
+  
