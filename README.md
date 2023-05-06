@@ -28,7 +28,7 @@ Informationen und Unterlagen zum Softwarepraktikum
 * Installieren Sie die Flutter SDK (Software Development Kit ) https://docs.flutter.dev/get-started/install und folgen Sie der Anleitung genau für ihr  Betriebssystem
 * Verbinden Sie VS Code mit GitHub https://code.visualstudio.com/docs/sourcecontrol/github
 
-# Eine einfache Flutter-App verstehen.
+# Einfache Flutter-App verstehen: Eine erste Annhäherung
 * Erstellen Sie eine minimale Flutter App auf Grundlage dieser Vorlage: https://github.com/bernhardstandl/first_flutter_app/blob/master/lib/main.dart
 * Kommentieren Sie den Code, sodass Schritt für Schritt erklärt wird, was in dem Programm in jeder Zeile passiert
 
