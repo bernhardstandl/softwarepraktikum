@@ -8,8 +8,8 @@ Informationen und Unterlagen zum Softwarepraktikum
 | ------------- | ------------- | ------------- |
 | 18.4.  | Vorbesprechung, Inhalte, Setup | [Foliensatz](sp_foliensatz.pdf) |
 | 25.4.  | Tutorial "My First Flutter App",  Entwicklung einer Projektidee  | [Aufgabe 1](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0)|
-| 2.5.  | Tutorial "Einfache erste App", Entwicklung einer Projektidee: Beschreibung und Skizzen, Festlegung der Teams   |  |
-| 9.5.  | Besprechung beider Tutorials, Grundlagen von Layout in Flutter Entwicklung einer Projektidee: Layout, Design, Mockup, FlowCharts |[Abgabe: Tutorial Aufgabe 2](https://classroom.github.com/a/ftpm1rgQ) [Anleitung zu Aufgabe 2](/materialien/anleitung2.md)  |
+| 2.5.  | Tutorial "Einfache erste App", Entwicklung einer Projektidee: Beschreibung und Skizzen, Festlegung der Teams   | [Anleitung zu Aufgabe 2](/materialien/anleitung2.md) |
+| 9.5.  | Besprechung beider Tutorials, Grundlagen von Layout in Flutter Entwicklung einer Projektidee: Layout, Design, Mockup, FlowCharts |[Abgabe: Tutorial Aufgabe 2](https://classroom.github.com/a/ftpm1rgQ)   |
 | 16.5.  | Planung von Software |  |
 | 23.5.  | Flutter Packages |  |
 | 30.5.  | Pfingstpause |  |
@@ -27,11 +27,11 @@ Informationen und Unterlagen zum Softwarepraktikum
 * Laden und installieren Sie Visual Studio Code https://code.visualstudio.com/download
 * Installieren Sie die Flutter SDK (Software Development Kit ) https://docs.flutter.dev/get-started/install und folgen Sie genau der Anleitung für das jeweilige Betriebssystem
 
-# Tutorial 1. Übergeordnetes Lernziel: Eine einfache Flutter-App verstehen.
+# Tutorial 1 (Aufgabe 1). Übergeordnetes Lernziel: Eine einfache Flutter-App verstehen.
 * Erstellen Sie eine minimale Flutter App (https://github.com/bernhardstandl/first_flutter_app/blob/master/lib/main.dart)
 * Kommentieren Sie den Code, sodass Schritt für Schritt erklärt wird, was in dem Programm Zeile für Zeile passiert.
 
-# Tutorial 2. Übergeordnetes Lernziel: Eine Flutter-App mit ChangeNotifier verstehen.
+# Tutorial 2 (Aufgabe 2). Übergeordnetes Lernziel: Eine Flutter-App mit ChangeNotifier verstehen.
 * Öffnen Sie das Tutorial: https://codelabs.developers.google.com/codelabs/flutter-codelab-first#2
 * Erstellen Sie das erste Flutter Projekt, so wie im Tutorial beschrieben
 * Nehmen Sie die Änderungen in pubspec.yaml vor. An welcher Stelle müssen Ergänzungen vorgenommen werden? Tipp: https://pub.dev/
