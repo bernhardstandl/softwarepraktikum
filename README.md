@@ -7,9 +7,9 @@ Informationen und Unterlagen zum Softwarepraktikum
 | Datum  | Thema | Unterlagen |
 | ------------- | ------------- | ------------- |
 | 18.4.  | Vorbesprechung, Inhalte, Setup | [Foliensatz](sp_foliensatz.pdf) |
-| 25.4.  | Tutorial "My First Flutter App",  Entwicklung einer Projektidee  | [Aufgabe](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0)|
-| 2.5.  | Tutorial "Einfache erste App", Entwicklung einer Projektidee: Beschreibung und Skizzen, Festlegung der Teams   | [Abgabe: Tutorial Aufgabe 2](https://classroom.github.com/a/ftpm1rgQ) [Anleitung zu Aufgabe 2](/materialien/anleitung2.md) |
-| 9.5.  | Besprechung beider Tutorials, Grundlagen von Layout in Flutter Entwicklung einer Projektidee: Layout, Design, Mockup, FlowCharts |  |
+| 25.4.  | Tutorial "My First Flutter App",  Entwicklung einer Projektidee  | [Aufgabe 1](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0)|
+| 2.5.  | Tutorial "Einfache erste App", Entwicklung einer Projektidee: Beschreibung und Skizzen, Festlegung der Teams   |  |
+| 9.5.  | Besprechung beider Tutorials, Grundlagen von Layout in Flutter Entwicklung einer Projektidee: Layout, Design, Mockup, FlowCharts |[Abgabe: Tutorial Aufgabe 2](https://classroom.github.com/a/ftpm1rgQ) [Anleitung zu Aufgabe 2](/materialien/anleitung2.md)  |
 | 16.5.  | Planung von Software |  |
 | 23.5.  | Flutter Packages |  |
 | 30.5.  | Pfingstpause |  |
