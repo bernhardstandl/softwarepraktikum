@@ -23,9 +23,10 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 25.7.  | Bereitstellung in App/Play Stores |  |
 
 
-# Installation von Flutter
+# Installation von Flutter, VS Code und GitHub
 * Laden und installieren Sie Visual Studio Code https://code.visualstudio.com/download
 * Installieren Sie die Flutter SDK (Software Development Kit ) https://docs.flutter.dev/get-started/install und folgen Sie der Anleitung genau für ihr  Betriebssystem
+* Verbinden Sie VS Code mit GitHub https://code.visualstudio.com/docs/sourcecontrol/github
 
 # Eine einfache Flutter-App verstehen.
 * Erstellen Sie eine minimale Flutter App auf Grundlage dieser Vorlage: https://github.com/bernhardstandl/first_flutter_app/blob/master/lib/main.dart
