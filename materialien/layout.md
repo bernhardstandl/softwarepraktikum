@@ -184,7 +184,7 @@ Row(
 
 
 ## Erweiterung der Layout-App
-
+<img src="pic/boxlayout.png">
 
 ```dart
  Expanded(
