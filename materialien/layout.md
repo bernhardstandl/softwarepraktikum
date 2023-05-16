@@ -44,6 +44,9 @@ flutter:
 ## Grundlagen
 
 ## Bilder anordnen
+Der Code definiert ein Column-Widget, das andere Widgets vertikal anordnet. Es enthält zwei Hauptkomponenten: eine Row und einen Text.
+
+Die Row ist ein horizontales Layout-Widget, das verwendet wird, um die Bilder nebeneinander anzuordnen. Es enthält drei Expanded-Widgets, die jeweils ein Bild darstellen. Das Attribut "mainAxisAlignment" wird auf "spaceEvenly" gesetzt, was bedeutet, dass der verfügbare Platz gleichmäßig zwischen den Kindern der Row aufgeteilt wird. Dadurch werden die Bilder mit gleichem Abstand zueinander platziert. Jedes Expanded-Widget enthält ein Image-Widget, das ein Bild aus den angegebenen Dateipfaden anzeigt. Die Bilder 'berg.jpg', 'stadt.jpg' und 'wald.jpg' befinden sich im Verzeichnis 'assets' innerhalb des Projekts. Nach der Row wird ein Text-Widget hinzugefügt, das den Text "test" anzeigt. Es wird innerhalb der Column platziert und erscheint unterhalb der Reihe mit den Bildern.
 
 ```dart
 Column(
@@ -77,6 +80,10 @@ Column(
 ```
 ## Design nach Widget-Tree
 <img src="https://docs.flutter.dev/assets/images/docs/ui/layout/sample-flutter-layout.png">
+
+Der gegebene Widget Tree definiert eine Row, die andere Widgets horizontal anordnet. In diesem Fall enthält die Row drei Column-Widgets. Jedes Column-Widget repräsentiert eine Spalte mit Inhalten. Innerhalb jeder Column gibt es zwei Widgets: ein Icon-Widget und ein Container-Widget.
+
+Im Code wird im ersten Column-Widget das Symbol "access_alarm" mit grüner Farbe dargestellt, während in den beiden anderen Column-Widgets das Symbol "star" ebenfalls mit grüner Farbe angezeigt wird. Der Container-Widget enthält ein Text-Widget, das den Text 'Test1' anzeigt. Der Container wird verwendet, um das Layout und den Stil des enthaltenen Text-Widgets zu steuern.
 
 ```dart
 Row(
