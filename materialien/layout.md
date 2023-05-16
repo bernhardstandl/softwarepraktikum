@@ -112,8 +112,8 @@ body:
 
             ],
           ),
-    ```
-   
+    
+```   
 
 ## Bilder anordnen
 Der Code definiert ein Column-Widget, das andere Widgets vertikal anordnet. Es enthält zwei Hauptkomponenten: eine Row und einen Text.
