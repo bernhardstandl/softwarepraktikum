@@ -42,6 +42,59 @@ flutter:
 ```
 
 ## Grundlagen
+Im Body-Bereich wird ein Widget (Text) eingefügt:
+
+<img src="pic/g1.png">
+```dart
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    
+    return MaterialApp(
+      
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Layout einer App'),
+        ),
+        
+        body:
+        
+          Text('Text-Widget'),
+
+      ),
+    );
+  }
+}
+```
+
+Mit dem Center-Widget wird das Textfeld zentriert:
+```dart
+        Center(
+          child: 
+            Text('Text-Widget'),
+        )
+  
+```
+
+Das Center-Widget wird dupliziert und in einem Column Widget dargestellt.
+
+```dart
+body:
+          Row(
+            children: [
+              Center(
+                child: 
+                  Text('Text-Widget'),
+              ),
+              Center(
+                child: 
+                  Text('Text-Widget'),
+              )
+
+            ],
+          ),
+   ```
+   
 
 ## Bilder anordnen
 Der Code definiert ein Column-Widget, das andere Widgets vertikal anordnet. Es enthält zwei Hauptkomponenten: eine Row und einen Text.
