@@ -46,6 +46,7 @@ flutter:
 Im Body-Bereich wird ein Widget (Text) eingefügt:
 
 <img src="pic/g1.png">
+
 ```dart
 class MyHomePage extends StatelessWidget {
   @override
