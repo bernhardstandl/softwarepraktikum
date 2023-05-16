@@ -1,4 +1,5 @@
-
+# Grundlagen zu Layout in Flutter
+Hier werden die wichtichsten Grundlagen zu Layout in Flutter beschrieben
 
 ## Struktur
 Innerhalb des MaterialApp-Widgets wird ein Scaffold-Widget verwendet, um die grundlegende Struktur der App zu definieren. Das Scaffold-Widget stellt eine App-Leiste (AppBar) und einen Körper (body) bereit. Die AppBar enthält einen Titel, der mit dem Text-Widget definiert wird und den Wert "Layout einer App" hat. Der Body der App ist derzeit leer und muss mit weiteren Widgets gefüllt werden, um den Inhalt der App darzustellen.
