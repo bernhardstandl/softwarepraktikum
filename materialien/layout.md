@@ -46,6 +46,8 @@ flutter:
 ## Bilder anordnen
 Der Code definiert ein Column-Widget, das andere Widgets vertikal anordnet. Es enthält zwei Hauptkomponenten: eine Row und einen Text.
 
+<img src="pic/images_flutter.png">
+
 Die Row ist ein horizontales Layout-Widget, das verwendet wird, um die Bilder nebeneinander anzuordnen. Es enthält drei Expanded-Widgets, die jeweils ein Bild darstellen. Das Attribut "mainAxisAlignment" wird auf "spaceEvenly" gesetzt, was bedeutet, dass der verfügbare Platz gleichmäßig zwischen den Kindern der Row aufgeteilt wird. Dadurch werden die Bilder mit gleichem Abstand zueinander platziert. Jedes Expanded-Widget enthält ein Image-Widget, das ein Bild aus den angegebenen Dateipfaden anzeigt. Die Bilder 'berg.jpg', 'stadt.jpg' und 'wald.jpg' befinden sich im Verzeichnis 'assets' innerhalb des Projekts. Nach der Row wird ein Text-Widget hinzugefügt, das den Text "test" anzeigt. Es wird innerhalb der Column platziert und erscheint unterhalb der Reihe mit den Bildern.
 
 ```dart
