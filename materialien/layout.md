@@ -181,3 +181,31 @@ Row(
           ],
           ),
 ```
+
+
+## Erweiterung der Layout-App
+
+
+```dart
+ Expanded(
+                    child: Container(
+                      color: Colors.red,
+                      child: Center(
+                        
+                        child: 
+                        
+                        Column(
+                          children: [Icon(Icons.access_alarm,color:Colors.white),Text(
+                          'Column 1',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 24,
+                          ),
+                        ),
+                        ],
+                      ),
+
+                    ),
+                  ),
+                  ),
+```
