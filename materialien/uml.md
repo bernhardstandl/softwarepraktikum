@@ -14,6 +14,8 @@ https://www.plantuml.com/plantuml/uml
 4) Das Ergebnis sieht z.B. so aus (für die Layout-App https://github.com/bernhardstandl/softwarepraktikum/blob/main/materialien/layout.md)
 <img src="pic/uml.png">
 
+Hier gibt es eine Doku zu Klassendiagrammen in PlantUML https://plantuml.com/de/class-diagram
+
 ## UML Wiederholung 
 In der Entwicklung mit Flutter handelt es sich bei einem UML-Analysemodell um eine visuelle Darstellung des Designs und der Struktur der Klassen in einer Flutter-Anwendung. Ein UML-Analysemodell für Flutter-Klassen besteht aus verschiedenen Diagrammen, die die verschiedenen Aspekte der Klassenstruktur und ihrer Beziehungen beschreiben. Das Klassendiagramm ist das grundlegende Diagramm in einem UML-Analysemodell. Es zeigt die Klassen und deren Attribute, Methoden und Beziehungen zueinander. Jede Klasse wird durch ein Rechteck dargestellt, das den Klassennamen enthält. Attribute werden unterhalb des Namens aufgeführt, und Methoden werden darunter aufgeführt. Beziehungen zwischen den Klassen werden durch Linien und Pfeile dargestellt.
 * **Attribute**: Attribute sind Eigenschaften oder Daten, die einer Klasse zugeordnet sind. Sie werden normalerweise im Klassendiagramm aufgeführt und beschreiben den Zustand einer Klasse. Beispiele für Attribute in einer Flutter-Klasse könnten sein: "Farbe", "Größe" oder "Text".
