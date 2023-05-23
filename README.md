@@ -11,7 +11,7 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 2.5.  | Tutorial "Einfache erste App", Entwicklung einer Projektidee: Beschreibung und Skizzen, Festlegung der Teams   | [Anleitung zu Aufgabe 2](/materialien/anleitung2.md) |
 | 9.5.  | Besprechung beider Tutorials, Grundlagen von Layout in Flutter Entwicklung einer Projektidee: Layout, Design, Mockup, FlowCharts |[Abgabe: Tutorial Aufgabe 2](https://classroom.github.com/a/ftpm1rgQ) -   [Flutter Box-Layout main](https://github.com/bernhardstandl/flutter_layout) |
 | 16.5.  | Grundlagen von Layout in Flutter | [Anleitung](https://github.com/bernhardstandl/softwarepraktikum/blob/main/materialien/layout.md) |
-| 23.5.  | Flutter Packages |https://pub.dev/  und UML Analyse https://pub.dev/packages/dcdg/|
+| 23.5.  | Flutter Packages |https://pub.dev/  und UML Analyse [Anleitung](https://github.com/bernhardstandl/softwarepraktikum/blob/main/materialien/uml.md)|
 | 30.5.  | Pfingstpause |  |
 | 6.6.  | Planung von Software, App Entwicklung im Team | Termin! |
 | 13.6.  | Zwischenpräsentationen | Termin! |
