@@ -13,13 +13,13 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 16.5.  | Grundlagen von Layout in Flutter | [Anleitung](https://github.com/bernhardstandl/softwarepraktikum/blob/main/materialien/layout.md) |
 | 23.5.  | Flutter Packages |https://pub.dev/  und UML Analyse [Anleitung](https://github.com/bernhardstandl/softwarepraktikum/blob/main/materialien/uml.md)|
 | 30.5.  | Pfingstpause |  |
-| 6.6.  | Planung von Software, App Entwicklung im Team | Termin! |
-| 13.6.  | Zwischenpräsentationen | Termin! |
-| 20.6.  | App Entwicklung im Team |  |
-| 27.6.  | App Entwicklung im Team |  |
+| 6.6.  |  App Entwicklung im Team  | keine betreute Veranstaltung |
+| 13.6.  |  App Entwicklung im Team  | keine betreute Veranstaltung |
+| 20.6.  | App Entwicklung im Team |keine betreute Veranstaltung  |
+| 27.6.  | Zwischenpräsentation | Teams präsentieren Zwischenstand  |
 | 4.7.  | App Entwicklung im Team |  |
-| 11.7.  | Abschlusspräsentationen |  |
-| 18.7.  | Überarbeitung / Feinschliff |  |
+| 11.7.  |  App Entwicklung im Team  |  |
+| 18.7.  | Abschlusspräsentationen |  |
 | 25.7.  | Bereitstellung in App/Play Stores |  |
 
 
