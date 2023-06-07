@@ -13,14 +13,14 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 16.5.  | Grundlagen von Layout in Flutter | [Anleitung](https://github.com/bernhardstandl/softwarepraktikum/blob/main/materialien/layout.md) |
 | 23.5.  | Flutter Packages |https://pub.dev/  und UML Analyse [Anleitung](https://github.com/bernhardstandl/softwarepraktikum/blob/main/materialien/uml.md)|
 | 30.5.  | Pfingstpause |  |
-| 6.6.  |  App Entwicklung im Team  | keine betreute Veranstaltung |
-| 13.6.  |  App Entwicklung im Team  | keine betreute Veranstaltung |
-| 20.6.  | App Entwicklung im Team |keine betreute Veranstaltung  |
+| 6.6.  |  App Entwicklung im Team  | keine betreute Einheit |
+| 13.6.  |  App Entwicklung im Team  | keine betreute Einheit |
+| 20.6.  | App Entwicklung im Team |keine betreute Einheit  |
 | 27.6.  | Zwischenpräsentation | Teams präsentieren Zwischenstand  |
-| 4.7.  | App Entwicklung im Team |  |
-| 11.7.  |  App Entwicklung im Team  |  |
-| 18.7.  | Abschlusspräsentationen |  |
-| 25.7.  | Bereitstellung in App/Play Stores |  |
+| 4.7.  | App Entwicklung im Team | Begleitete Einheit im LLL |
+| 11.7.  |  App Entwicklung im Team  | Begleitete Einheit im LLL |
+| 18.7.  | Abschlusspräsentationen | keine betreute Einheit |
+| 25.7.  | Bereitstellung in App/Play Stores | Begleitete Einheit im LLL |
 
 
 # Installation von Flutter, VS Code und GitHub
