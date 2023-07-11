@@ -18,7 +18,7 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 20.6.  | App Entwicklung im Team |keine betreute Einheit  |
 | 27.6.  | Zwischenpräsentation | Teams präsentieren Zwischenstand  |
 | 4.7.  | App Entwicklung im Team | Begleitete Einheit im LLL |
-| 11.7.  |  App Entwicklung im Team  | Begleitete Einheit im LLL |
+| 11.7.  |  App Entwicklung im Team  | teilweise begleitete Einheit im LLL (15-17)|
 | 18.7.  | Abschlusspräsentationen | Begleitete Einheit im LLL |
 | 25.7.  | Bereitstellung in App/Play Stores | Begleitete Einheit im LLL |
 
