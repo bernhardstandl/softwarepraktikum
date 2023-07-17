@@ -18,10 +18,11 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 20.6.  | App Entwicklung im Team |keine betreute Einheit  |
 | 27.6.  | Zwischenpräsentation | Teams präsentieren Zwischenstand  |
 | 4.7.  | App Entwicklung im Team | Begleitete Einheit im LLL |
-| 11.7.  |  App Entwicklung im Team  | teilweise begleitete Einheit im LLL (15-17)|
-| 18.7.  | Abschlusspräsentationen | Begleitete Einheit im LLL |
-| 25.7.  | Bereitstellung in App/Play Stores | Begleitete Einheit im LLL |
+| 11.7.  |  App Entwicklung im Team  | teilweise begleitete Einheit im LLL (15:00-17:00)|
+| 18.7.  | App Entwicklung im Team | Begleitete Einheit im LLL 15:00-16:00 |
+| 25.7.  | Abschlusspräsentationen | Begleitete Einheit im LLL 16:30-17:30|
 
+Die Bereitstellung der Apps in den Appstores erfolgt in der Semesterpause nach Abstimmung.
 
 # Installation von Flutter, VS Code und GitHub
 * Laden und installieren Sie Visual Studio Code https://code.visualstudio.com/download
