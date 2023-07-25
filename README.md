@@ -20,7 +20,7 @@ Informationen und Unterlagen zum Softwarepraktikum
 | 4.7.  | App Entwicklung im Team | Begleitete Einheit im LLL |
 | 11.7.  |  App Entwicklung im Team  | teilweise begleitete Einheit im LLL (15:00-17:00)|
 | 18.7.  | App Entwicklung im Team | Begleitete Einheit im LLL 15:00-16:00 |
-| 25.7.  | Abschlusspräsentationen | Begleitete Einheit im LLL 16:30-17:30|
+| 25.7.  | Abschlusspräsentationen | Begleitete Einheit online  16:30-17:30|
 
 Die Bereitstellung der Apps in den Appstores erfolgt in der Semesterpause nach Abstimmung.
 
